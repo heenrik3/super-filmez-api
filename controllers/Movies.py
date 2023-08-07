@@ -19,7 +19,7 @@ async def getAllMovies():
         'data': movies
     }
 
-async def getOneMovie(id: int):
+async def getOneMovie(id: str):
     movie = await Movies.getOne(id)
 
     if not movie:
