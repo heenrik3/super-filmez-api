@@ -211,7 +211,7 @@ async def getOne(id):
 
     for m in movies:
         
-        if m['id'] == id:
+        if m['name'] == id:
             found = m
             break
     
